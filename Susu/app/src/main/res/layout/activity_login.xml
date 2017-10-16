@@ -7,6 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.administrator.susu.LoginActivity"
+    android:background="@drawable/yys"
     >
 
     <LinearLayout
@@ -37,9 +38,9 @@
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
-        app:srcCompat="@mipmap/dd"
+        app:srcCompat="@mipmap/st"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="70dp"/>
+        android:layout_marginTop="80dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -56,14 +57,14 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="180dp"
+        android:layout_marginTop="250dp"
         >
         <LinearLayout
             android:layout_width="80dp"
             android:layout_height="48dp"
             android:orientation="horizontal"
             android:gravity="center"
-            android:background="@drawable/shape_login_linear"
+
             >
             <TextView
                 android:layout_width="wrap_content"
@@ -81,7 +82,7 @@
             android:textCursorDrawable="@null"
             android:inputType="number"
             android:layout_marginLeft="5dp"
-            android:background="@drawable/shape_register_et"
+
             />
     </LinearLayout>
 
@@ -90,14 +91,14 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="240dp"
+        android:layout_marginTop="320dp"
         >
         <LinearLayout
             android:layout_width="80dp"
             android:layout_height="48dp"
             android:orientation="horizontal"
             android:gravity="center"
-            android:background="@drawable/shape_login_linear"
+
             >
             <TextView
                 android:layout_width="wrap_content"
@@ -115,7 +116,7 @@
             android:textCursorDrawable="@null"
             android:inputType="number"
             android:layout_marginLeft="5dp"
-            android:background="@drawable/shape_register_et"
+
             />
     </LinearLayout>
 
